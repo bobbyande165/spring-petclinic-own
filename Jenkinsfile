@@ -7,7 +7,7 @@ pipeline{
         stage('git clone'){
             steps{
                 git url: 'https://github.com/bobbyande165/spring-petclinic-own.git'
-                branch: 'main'
+                    branch: 'main'
             }
         }
         stage('build and scan'){
