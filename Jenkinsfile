@@ -1,5 +1,5 @@
 pipeline{
-    agent {label 'JAVA2'}
+    agent {label 'JAVA1'}
     triggers {
         pollSCM('* * * * *')
     }
